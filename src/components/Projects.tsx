@@ -3,13 +3,13 @@ import { Github, ExternalLink } from "lucide-react";
 
 const featuredProjects = [
   {
-    title: "MERN Chat Application",
+    title: "Full Stack CRUD Application",
     description:
-      "A full-stack real-time chat application with Socket.io, featuring group chats, message persistence, and profile management.",
-    image: "/images/chatapp.png",
-    tags: ["React", "Node.js", "Socket.io", "MongoDB"],
-    github: "https://github.com/usman684/chat-client",
-    live: "https://chat-client-kappa-mocha.vercel.app/",
+      "A full-stack CRUD application built with the MERN stack, enabling efficient creation, management, and manipulation of data with a responsive and user-friendly interface.",
+    image: "/images/crudapp.png",
+    tags: ["Next.js", "Stripe", "Firebase", "Redux"],
+    github: "https://github.com/usman684/clientside",
+    live: "https://clientside-khaki.vercel.app/",
   },
   {
     title: "MERN URL Shortener",
@@ -30,13 +30,13 @@ const featuredProjects = [
     live: "https://weather-theta-one-80.vercel.app/",
   },
   {
-    title: "Ecommerce App",
+    title: "MERN Chat Application",
     description:
-      "Feature-rich e-commerce platform with Stripe integration, complex state management, and cloud functions. Where we can Add, Del, Update and Read the Products",
-    image: "/images/ecmrc.png",
-    tags: ["Next.js", "Stripe", "Firebase", "Redux"],
-    github: "https://github.com/usman684/CRUD-Operation-F",
-    live: "https://productapi-coral.vercel.app/",
+      "A full-stack real-time chat application with Socket.io, featuring group chats, message persistence, and profile management.",
+    image: "/images/chatapp.png",
+    tags: ["React", "Node.js", "Socket.io", "MongoDB"],
+    github: "https://github.com/usman684/chat-client",
+    live: "https://chat-client-kappa-mocha.vercel.app/",
   },
 ];
 
