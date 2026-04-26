@@ -82,8 +82,8 @@ export default function Hero() {
               View Projects <ArrowRight size={20} />
             </motion.a>
             <motion.a
-              href="/images/cv.pdf"
-              download="Muhammad_Usman_CV.pdf"
+              href="/images/cv.png"
+              download="Muhammad_Usman_CV.png"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="flex items-center gap-2 px-8 py-4 rounded-full glass font-bold text-white hover:bg-white/10 transition-all"

@@ -77,7 +77,7 @@ const otherProjects = [
 
 export default function Projects() {
   return (
-    <section id="projects" className="py-24 bg-white/[0.01]">
+    <section id="projects" className="py-24 bg-white/1">
       <div className="container mx-auto px-6 mb-20">
         <h2 className="text-4xl md:text-5xl font-black mb-4">Featured <span className="text-gradient">Projects</span></h2>
         <p className="text-gray-500 text-lg">My personal favorites and most complex builds.</p>
@@ -94,7 +94,7 @@ export default function Projects() {
             className={`flex flex-col ${idx % 2 !== 0 ? 'md:flex-row-reverse' : 'md:flex-row'} gap-12 items-center`}
           >
             <div className="flex-1 w-full relative group">
-              <div className="absolute -inset-2 bg-gradient-to-r from-brand-purple to-brand-blue rounded-[2.5rem] blur opacity-20 group-hover:opacity-40 transition-opacity" />
+              <div className="absolute -inset-2 bg-linear-to-r from-brand-purple to-brand-blue rounded-[2.5rem] blur opacity-20 group-hover:opacity-40 transition-opacity" />
               <div className="relative aspect-video rounded-3xl overflow-hidden glass p-2">
                 <img
                   src={project.image}
@@ -139,7 +139,7 @@ export default function Projects() {
 
       {/* Other Projects */}
       <div className="container mx-auto px-6">
-        <div className="h-[1px] w-full bg-white/10 mb-20" />
+        <div className="h-px w-full bg-white/10 mb-20" />
         <h2 className="text-3xl font-black mb-12">Other <span className="text-gray-500 italic">Creations</span></h2>
         
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
